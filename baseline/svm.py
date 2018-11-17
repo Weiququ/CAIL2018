@@ -85,7 +85,7 @@ if __name__ == '__main__':
 	print('saving model')
 	joblib.dump(tfidf, 'predictor/model/tfidf.model')
 	joblib.dump(accu, 'predictor/model/accu.model')
-	joblib.dump(law, 'predicotr/model/law.model')
+	joblib.dump(law, 'predictor/model/law.model')
 	joblib.dump(time, 'predictor/model/time.model')
 
 
